@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniToXmlModel", "IniToXmlModel\IniToXmlModel.csproj", "{2F9EE5EC-F94B-4D32-9220-E774B348749F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniToXmlConvertor", "IniToXmlConvertor\IniToXmlConvertor.csproj", "{9615465A-F887-4579-A64C-C05247D5D94B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F9EE5EC-F94B-4D32-9220-E774B348749F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9EE5EC-F94B-4D32-9220-E774B348749F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9EE5EC-F94B-4D32-9220-E774B348749F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9EE5EC-F94B-4D32-9220-E774B348749F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9615465A-F887-4579-A64C-C05247D5D94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9615465A-F887-4579-A64C-C05247D5D94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9615465A-F887-4579-A64C-C05247D5D94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9615465A-F887-4579-A64C-C05247D5D94B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
