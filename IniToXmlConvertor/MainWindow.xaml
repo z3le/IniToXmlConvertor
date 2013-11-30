@@ -20,11 +20,11 @@
             <RowDefinition Height="29*"/>
         </Grid.RowDefinitions>
         <!-- User interface for the INI file -->
-        <TextBlock x:Name="textBlockIniContent"  Padding="10,10,5,10" Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" HorizontalAlignment="Left" Width="294" Height="291" VerticalAlignment="Top" Text="Your ini file will be displayed here" Background="#FFF7F6F6" />
+        <TextBox x:Name="textBlockIniContent"  Padding="10,10,5,10" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Text="Your ini file will be displayed here" Background="#FFF7F6F6" Grid.Column="1" Grid.Row="3" Height="291" Width="300"/>
         <TextBox x:Name="textBoxLoadIniFile" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Grid.Column="1" Grid.Row="1"/>
         <Button x:Name="buttonLoadIniFile" Content="Load INI File" Grid.Column="1" HorizontalAlignment="Left" Margin="219,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Height="25" Click="buttonLoadIniFile_Click"/>
         <!-- User interface for the XML file -->
-        <TextBlock x:Name="textBlockXmlContent" Padding="10,10,5,10" Grid.Column="3" Grid.Row="3" TextWrapping="Wrap" Text="Your xml file will be displayed here" Height="291" VerticalAlignment="Top" HorizontalAlignment="Left" Width="294" Background="#FFF7F6F6"/>
+        <TextBox x:Name="textBlockXmlContent" Padding="10,10,5,10" Grid.Column="3" Grid.Row="3" TextWrapping="Wrap" Text="Your xml file will be displayed here" Height="291" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300" Background="#FFF7F6F6"/>
         <TextBox x:Name="textBoxLoadXmlFile" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="194" Grid.Column="3" Grid.Row="1"/>
         <Button x:Name="buttonLoadXmlFile" Content="Load XML File" Grid.Column="3" HorizontalAlignment="Left" Margin="210,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="84" Height="25" Click="buttonLoadXmlFile_Click"/>
         <!-- User interface for the Convertion -->
