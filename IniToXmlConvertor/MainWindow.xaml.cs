@@ -39,7 +39,7 @@ namespace IniToXmlConvertor
             if (openFileDialogLoad.ShowDialog() == true)
             {
                 textBoxLoadIniFile.Text = openFileDialogLoad.FileName;
-                textBlockIniContent.Text = IniToXmlModel.IniToXmlModel.ReadEntireFile(openFileDialogLoad.FileName);
+                textBoxIniContent.Text = IniToXmlModel.IniToXmlModel.ReadEntireFile(openFileDialogLoad.FileName);
             }
         }
 
@@ -89,7 +89,7 @@ namespace IniToXmlConvertor
                 XDocument doc = IniToXmlModel.IniToXmlModel.ConvertIni(inputFile, appRootEl);
                 doc.Save(outputFile);
 
-                textBlockXmlContent.Text = IniToXmlModel.IniToXmlModel.ReadEntireFile(outputFile);
+                textBoxLoadXmlFile.Text = IniToXmlModel.IniToXmlModel.ReadEntireFile(outputFile);
             }
             catch (Exception ex)
             {
